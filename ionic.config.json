@@ -1,0 +1,7 @@
+{
+  "name": "ionic_toast_style_customization",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
