@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header *ngIf="false" [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Tab 1
@@ -13,9 +13,9 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container *ngIf="false" name="Tab 1 page"></app-explore-container>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
 
-  <div class="tab1-component_notification_button_content" style="display: flex; align-items: center; justify-content: center; height: 100%;"> <!-------------- ui notification_button_content -------------->
+  <div *ngIf="false" class="tab1-component_notification_button_content" style="display: flex; align-items: center; justify-content: center; height: 100%;"> <!-------------- ui notification_button_content -------------->
     <ion-button (click)="notificationButtonModal()" class="tab1-component_notification_button"> <!-------------- ui notification_button -------------->
       <ion-label class="tab1-component_notification_button_icon"> <!-------------- ui notification_button_icon -------------->
         Notification
